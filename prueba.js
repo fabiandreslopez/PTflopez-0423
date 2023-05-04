@@ -31,9 +31,4 @@ function metodoquehacealgo(valor) {
   let resultado = metodoquehacealgo(5);
   console.log(resultado);
   
-// funcion metodoquehacealgo(entero valor)
-// si (valor<3)entonces
-//  retornar valor;
-//  fin si
-//  retornar metodoquehacealgo(valor-1)*metodoquehacealgo(valor-2);
-//  fin funcion
+
