@@ -10,5 +10,13 @@ function dividir(){
     //mostrar al Resultado
     var Resul =Numero1/Numero2;
     
-    document.getElementById('Resultado').value=Resul;
+      if ((Resul)) {
+    // Mostrar mensaje de error si el resultado no es un número
+    alert("No se puede dividir por cero");
+    document.getElementById('Resultado').value = "no se puede dividir";
+  } else {
+    // Mostrar el resultado si es un número
+    document.getElementById('Resultado').value = Resul;
+  }
+    
     }
